@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="마이리얼트립에서 제공하는 특별한 여행 쿠폰을 확인하세요. 항공권, 호텔, 투어 등 다양한 여행 상품에 사용할 수 있는 할인 쿠폰을 만나보세요.">
+    <meta name="keywords" content="마이리얼트립, 쿠폰, 할인, 여행, 항공권, 호텔, 투어, 여행상품">
+    <meta name="author" content="마이리얼트립">
+    <meta property="og:title" content="마이리얼트립 쿠폰 - 특별한 여행 할인 혜택">
+    <meta property="og:description" content="마이리얼트립에서 제공하는 다양한 여행 쿠폰으로 더 저렴하게 여행하세요.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dongbaektour.co.kr">
+    <meta property="og:image" content="https://dongbaektour.co.kr/images/coupon-og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마이리얼트립 쿠폰 - 특별한 여행 할인 혜택">
+    <meta name="twitter:description" content="마이리얼트립에서 제공하는 다양한 여행 쿠폰으로 더 저렴하게 여행하세요.">
+    
+    <title>마이리얼트립 쿠폰 - 특별한 여행 할인 혜택 </title>
+    
+    <!-- 파비콘 -->
+    <link rel="icon" type="image/png" href="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=32&h=32&fit=crop&crop=center">
+    <link rel="apple-touch-icon" href="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=180&h=180&fit=crop&crop=center">
+    
+    <link rel="canonical" href="https://dongbaektour.co.kr">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- 구조화된 데이터 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "마이리얼트립 쿠폰",
+        "description": "마이리얼트립에서 제공하는 특별한 여행 쿠폰을 확인하세요.",
+        "url": "https://dongbaektour.co.kr",
+        "mainEntity": {
+            "@type": "Organization",
+            "name": "마이리얼트립 쿠폰",
+            "url": "https://dongbaektour.co.kr"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>마이리얼트립 쿠폰</h1>
+                </div>
+                <div class="nav-menu">
+                    <a href="#home" class="nav-link">홈</a>
+                    <a href="#coupons" class="nav-link">쿠폰</a>
+                    <a href="#categories" class="nav-link">카테고리</a>
+                </div>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 메인 히어로 섹션 -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1920&h=1080&fit=crop&crop=center" alt="여행 배경" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h2 class="hero-title">특별한 여행을 위한<br><span class="highlight">특별한 쿠폰</span></h2>
+                <p class="hero-description">마이리얼트립에서 제공하는 다양한 할인 쿠폰으로<br>더 저렴하고 즐거운 여행을 시작하세요</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>활성 쿠폰</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>최대 30%</h3>
+                        <p>할인 혜택</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>24/7</h3>
+                        <p>사용 가능</p>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToCoupons()">쿠폰 보러가기</button>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <div class="card-content">
+                        <h4>항공권 쿠폰</h4>
+                        <p>최대 20% 할인</p>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-content">
+                        <h4>호텔 쿠폰</h4>
+                        <p>최대 30% 할인</p>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-content">
+                        <h4>투어 쿠폰</h4>
+                        <p>최대 25% 할인</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 쿠폰 섹션 -->
+    <section id="coupons" class="coupons-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>지금 사용 가능한 쿠폰</h2>
+                <p>다양한 여행 상품에 적용할 수 있는 특별한 할인 쿠폰을 확인하세요</p>
+            </div>
+            
+            <!-- 검색 및 필터 영역 -->
+            <div class="search-filter-area">
+                <input type="text" id="search-input" placeholder="쿠폰 제목이나 설명을 검색하세요...">
+                <div class="coupon-filters">
+                    <button class="filter-btn active" data-category="all">전체</button>
+                    <button class="filter-btn" data-category="new">신규가입</button>
+                    <button class="filter-btn" data-category="app">앱 전용</button>
+                    <button class="filter-btn" data-category="tour">투어&티켓</button>
+                    <button class="filter-btn" data-category="hotel">숙소</button>
+                    <button class="filter-btn" data-category="flight">항공권</button>
+                    <button class="filter-btn" data-category="partner">제휴사</button>
+                    <button class="filter-btn" data-category="package">패키지</button>
+                </div>
+            </div>
+
+            <div class="coupons-grid">
+                <!-- 쿠폰 카드들 -->
+                <!-- 신규가입 쿠폰 -->
+                <div class="coupon-card" data-category="new">
+                    <div class="coupon-image">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=200&fit=crop&crop=center" alt="웰컴 쿠폰" class="coupon-img">
+                    </div>
+                    <div class="coupon-header">
+                        <div class="coupon-type">신규가입</div>
+                        <div class="coupon-expiry">2024.12.31까지</div>
+                    </div>
+                    <div class="coupon-content">
+                        <h3>첫 만남 웰컴 쿠폰</h3>
+                        <div class="discount-amount">10% 할인</div>
+                        <p class="coupon-description">가입 즉시 사용 가능한 10% 할인 쿠폰입니다. 모든 카테고리에 적용 가능해요.</p>
+                        <div class="coupon-code">
+                            <span>코드: WELCOME10</span>
+                            <button class="copy-btn" onclick="copyCouponCode('WELCOME10', this)">복사</button>
+                        </div>
+                    </div>
+                    <a href="https://myrealt.rip/MY86a0" target="_blank" class="use-coupon-btn">쿠폰 사용하기</a>
+                </div>
+
+                <div class="coupon-card" data-category="new">
+                    <div class="coupon-image">
+                        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=200&fit=crop&crop=center" alt="3종 쿠폰팩" class="coupon-img">
+                    </div>
+                    <div class="coupon-header">
+                        <div class="coupon-type">신규가입</div>
+                        <div class="coupon-expiry">2024.12.31까지</div>
+                    </div>
+                    <div class="coupon-content">
+                        <h3>신규가입 감사 3종 쿠폰팩</h3>
+                        <div class="discount-amount">3천원 할인</div>
+                        <p class="coupon-description">가입 즉시 드리는 3천원, 5천원, 1만원 할인 쿠폰 3종 세트입니다.</p>
+                        <div class="coupon-code">
+                            <span>코드: NEWCOMER3K</span>
+                            <button class="copy-btn" onclick="copyCouponCode('NEWCOMER3K', this)">복사</button>
+                        </div>
+                    </div>
+                    <a href="https://myrealt.rip/MY88e7" target="_blank" class="use-coupon-btn">쿠폰 사용하기</a>
+                </div>
+
+                <!-- 앱 전용 쿠폰 -->
+                <div class="coupon-card" data-category="app">
+                    <div class="coupon-image">
+                        <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=200&fit=crop&crop=center" alt="앱 쿠폰" class="coupon-img">
+                    </div>
+                    <div class="coupon-header">
+                        <div class="coupon-type">앱 전용</div>
+                        <div class="coupon-expiry">2024.12.31까지</div>
+                    </div>
+                    <div class="coupon-content">
+                        <h3>앱 첫 구매 쿠폰</h3>
+                        <div class="discount-amount">15% 할인</div>
+                        <p class="coupon-description">마이리얼트립 앱에서 처음 구매 시 15% 할인! 더 큰 혜택을 누리세요.</p>
+                        <div class="coupon-code">
+                            <span>코드: APP15</span>
+                            <button class="copy-btn" onclick="copyCouponCode('APP15', this)">복사</button>
+                        </div>
+                    </div>
+                    <a href="https://myrealt.rip/MY8A72" target="_blank" class="use-coupon-btn">쿠폰 사용하기</a>
+                </div>
+
+                <div class="coupon-card" data-category="app">
+                    <div class="coupon-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop&crop=center" alt="생일 쿠폰" class="coupon-img">
+                    </div>
+                    <div class="coupon-header">
+                        <div class="coupon-type">앱 전용</div>
+                        <div class="coupon-expiry">2024.12.31까지</div>
+                    </div>
+                    <div class="coupon-content">
+                        <h3>생일 축하 12% 쿠폰</h3>
+                        <div class="discount-amount">12% 할인</div>
+                        <p class="coupon-description">생일 달에만 드리는 특별한 12% 할인 쿠폰! 앱에서만 확인 가능합니다.</p>
+                        <div class="coupon-code">
+                            <span>코드: BIRTHDAY12</span>
+                            <button class="copy-btn" onclick="copyCouponCode('BIRTHDAY12', this)">복사</button>
+                        </div>
+                    </div>
+                    <a href="https://myrealt.rip/MY8C44" target="_blank" class="use-coupon-btn">쿠폰 사용하기</a>
+                </div>
+
+                <!-- 카테고리별 쿠폰 -->
+                <div class="coupon-card" data-category="tour">
+                    <div class="coupon-image">
+                        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=200&fit=crop&crop=center" alt="투어 쿠폰" class="coupon-img">
+                    </div>
+                    <div class="coupon-header">
+                        <div class="coupon-type">투어&티켓</div>
+                        <div class="coupon-expiry">2024.12.31까지</div>
+                    </div>
+                    <div class="coupon-content">
+                        <h3>투어&티켓 5천원 할인</h3>
+                        <div class="discount-amount">5천원 할인</div>
+                        <p class="coupon-description">전 세계 모든 투어와 티켓 상품 구매 시 5천원을 즉시 할인해드립니다.</p>
+                        <div class="coupon-code">
+                            <span>코드: TOUR5K</span>
+                            <button class="copy-btn" onclick="copyCouponCode('TOUR5K', this)">복사</button>
+                        </div>
+                    </div>
+                    <a href="https://myrealt.rip/MY8D36" target="_blank" class="use-coupon-btn">쿠폰 사용하기</a>
+                </div>
+
+                <div class="coupon-card" data-category="hotel">
+                    <div class="coupon-image">
+                        <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=400&h=200&fit=crop&crop=center" alt="숙소 쿠폰" class="coupon-img">
+                    </div>
+                    <div class="coupon-header">
+                        <div class="coupon-type">숙소</div>
+                        <div class="coupon-expiry">2024.12.31까지</div>
+                    </div>
+                    <div class="coupon-content">
+                        <h3>숙소 2만원 할인</h3>
+                        <div class="discount-amount">2만원 할인</div>
+                        <p class="coupon-description">국내 및 해외 숙소 2박 이상 예약 시 2만원을 할인받을 수 있습니다.</p>
+                        <div class="coupon-code">
+                            <span>코드: HOTEL20K</span>
+                            <button class="copy-btn" onclick="copyCouponCode('HOTEL20K', this)">복사</button>
+                        </div>
+                    </div>
+                    <a href="https://myrealt.rip/MY86a0" target="_blank" class="use-coupon-btn">쿠폰 사용하기</a>
+                </div>
+
+                <div class="coupon-card" data-category="flight">
+                    <div class="coupon-image">
+                        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&h=200&fit=crop&crop=center" alt="항공권 쿠폰" class="coupon-img">
+                    </div>
+                    <div class="coupon-header">
+                        <div class="coupon-type">항공권</div>
+                        <div class="coupon-expiry">2024.12.31까지</div>
+                    </div>
+                    <div class="coupon-content">
+                        <h3>항공권 3% 할인</h3>
+                        <div class="discount-amount">3% 할인</div>
+                        <p class="coupon-description">해외 항공권 결제 시 적용되는 3% 할인 쿠폰. 최대 3만원까지 할인됩니다.</p>
+                        <div class="coupon-code">
+                            <span>코드: FLIGHT3</span>
+                            <button class="copy-btn" onclick="copyCouponCode('FLIGHT3', this)">복사</button>
+                        </div>
+                    </div>
+                    <a href="https://myrealt.rip/MY88e7" target="_blank" class="use-coupon-btn">쿠폰 사용하기</a>
+                </div>
+
+                <!-- 제휴사 쿠폰 -->
+                <div class="coupon-card" data-category="partner">
+                    <div class="coupon-image">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=200&fit=crop&crop=center" alt="제휴사 쿠폰" class="coupon-img">
+                    </div>
+                    <div class="coupon-header">
+                        <div class="coupon-type">제휴사</div>
+                        <div class="coupon-expiry">2024.12.31까지</div>
+                    </div>
+                    <div class="coupon-content">
+                        <h3>KB카드 제휴 7% 할인</h3>
+                        <div class="discount-amount">7% 할인</div>
+                        <p class="coupon-description">KB국민카드로 결제 시 전 상품 7% 할인을 제공합니다.</p>
+                        <div class="coupon-code">
+                            <span>코드: KB7</span>
+                            <button class="copy-btn" onclick="copyCouponCode('KB7', this)">복사</button>
+                        </div>
+                    </div>
+                    <a href="https://myrealt.rip/MY8A72" target="_blank" class="use-coupon-btn">쿠폰 사용하기</a>
+                </div>
+
+                <div class="coupon-card" data-category="partner">
+                    <div class="coupon-image">
+                        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=200&fit=crop&crop=center" alt="신한카드 쿠폰" class="coupon-img">
+                    </div>
+                    <div class="coupon-header">
+                        <div class="coupon-type">제휴사</div>
+                        <div class="coupon-expiry">2024.12.31까지</div>
+                    </div>
+                    <div class="coupon-content">
+                        <h3>신한카드 특별 할인</h3>
+                        <div class="discount-amount">5% 할인</div>
+                        <p class="coupon-description">신한카드 결제 시 항공권과 숙소 예약에 5% 추가 할인을 제공합니다.</p>
+                        <div class="coupon-code">
+                            <span>코드: SHINHAN5</span>
+                            <button class="copy-btn" onclick="copyCouponCode('SHINHAN5', this)">복사</button>
+                        </div>
+                    </div>
+                    <a href="https://myrealt.rip/MY8C44" target="_blank" class="use-coupon-btn">쿠폰 사용하기</a>
+                </div>
+
+                <!-- 패키지 쿠폰 -->
+                <div class="coupon-card" data-category="package">
+                    <div class="coupon-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=200&fit=crop&crop=center" alt="동남아 패키지 쿠폰" class="coupon-img">
+                    </div>
+                    <div class="coupon-header">
+                        <div class="coupon-type">패키지</div>
+                        <div class="coupon-expiry">2024.12.31까지</div>
+                    </div>
+                    <div class="coupon-content">
+                        <h3>동남아 인기 패키지 15% 할인</h3>
+                        <div class="discount-amount">15% 할인</div>
+                        <p class="coupon-description">방콕, 싱가포르 등 동남아 패키지 상품 전용 할인 쿠폰입니다.</p>
+                        <div class="coupon-code">
+                            <span>코드: SEAPAC15</span>
+                            <button class="copy-btn" onclick="copyCouponCode('SEAPAC15', this)">복사</button>
+                        </div>
+                    </div>
+                    <a href="https://myrealt.rip/MY8D36" target="_blank" class="use-coupon-btn">쿠폰 사용하기</a>
+                </div>
+
+                <div class="coupon-card" data-category="package">
+                    <div class="coupon-image">
+                        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=200&fit=crop&crop=center" alt="유럽 패키지 쿠폰" class="coupon-img">
+                    </div>
+                    <div class="coupon-header">
+                        <div class="coupon-type">패키지</div>
+                        <div class="coupon-expiry">2024.12.31까지</div>
+                    </div>
+                    <div class="coupon-content">
+                        <h3>유럽 패키지 특가</h3>
+                        <div class="discount-amount">10% 할인</div>
+                        <p class="coupon-description">프랑스, 이탈리아 등 유럽 패키지 여행에 적용되는 특별 할인 쿠폰입니다.</p>
+                        <div class="coupon-code">
+                            <span>코드: EUROPE10</span>
+                            <button class="copy-btn" onclick="copyCouponCode('EUROPE10', this)">복사</button>
+                        </div>
+                    </div>
+                    <a href="https://myrealt.rip/MY86a0" target="_blank" class="use-coupon-btn">쿠폰 사용하기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 카테고리 섹션 -->
+    <section id="categories" class="categories-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>여행 카테고리별 쿠폰</h2>
+                <p>원하는 여행 스타일에 맞는 쿠폰을 찾아보세요</p>
+            </div>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">✈️</div>
+                    <h3>항공권</h3>
+                    <p>국내외 항공권 예약 시<br>최대 20% 할인</p>
+                    <div class="coupon-count">12개 쿠폰</div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">🏨</div>
+                    <h3>호텔</h3>
+                    <p>전 세계 호텔 예약 시<br>최대 30% 할인</p>
+                    <div class="coupon-count">18개 쿠폰</div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">🎯</div>
+                    <h3>투어</h3>
+                    <p>다양한 현지 투어<br>최대 25% 할인</p>
+                    <div class="coupon-count">15개 쿠폰</div>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">📦</div>
+                    <h3>패키지</h3>
+                    <p>항공+호텔 패키지<br>최대 15% 할인</p>
+                    <div class="coupon-count">8개 쿠폰</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 사용 이유 섹션 -->
+    <section class="why-use-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>마이리얼트립 쿠폰을 사용해야 하는 이유</h2>
+                <p>더 많은 혜택과 편리함을 경험하세요</p>
+            </div>
+            
+            <div class="why-use-grid">
+                <div class="reason-card border-blue">
+                    <div class="reason-image">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop&crop=center" alt="실시간 정보" class="card-image">
+                    </div>
+                    <h4>실시간 최신 정보</h4>
+                    <p>만료되거나 숨겨진 쿠폰 없이, <b>가장 최근에 발행된</b> 마이리얼트립 할인 정보를 제공합니다.</p>
+                </div>
+                <div class="reason-card border-green">
+                    <div class="reason-image">
+                        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=300&fit=crop&crop=center" alt="간편 복사" class="card-image">
+                    </div>
+                    <h4>원클릭 간편 복사</h4>
+                    <p>복잡한 절차 없이, 마음에 드는 쿠폰 코드를 <b>버튼 하나로 즉시 복사</b>할 수 있습니다.</p>
+                </div>
+                <div class="reason-card border-purple">
+                    <div class="reason-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop&crop=center" alt="맞춤 검색" class="card-image">
+                    </div>
+                    <h4>카테고리별 맞춤 검색</h4>
+                    <p>항공권, 숙소, 투어 등 <b>여행 종류별로 필터링</b>하여 시간을 절약하세요.</p>
+                </div>
+                <div class="reason-card border-red">
+                    <div class="reason-image">
+                        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=300&fit=crop&crop=center" alt="절약 효과" class="card-image">
+                    </div>
+                    <h4>최대 절약 효과</h4>
+                    <p>다른 곳에서 찾기 힘든 <b>추가 할인 코드</b>를 발견하여 여행 경비를 절약합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 숨겨진 할인 코드 때문에 고생하지 마세요 섹션 -->
+    <section class="pain-solution-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>숨겨진 할인 코드 때문에 고생하지 마세요</h2>
+                <p>여행 준비의 고통을 해결해드립니다</p>
+            </div>
+            
+            <div class="comparison-grid">
+                <!-- 고통 (Before) -->
+                <div class="before-state">
+                    <h4 class="state-title red-text">여행 준비 '전'의 모습</h4>
+                    <div class="state-item">
+                        <span class="state-icon">🔥</span>
+                        <p><b>수많은 검색</b>: 수십 개의 블로그와 포럼을 뒤지며 시간을 낭비합니다.</p>
+                    </div>
+                    <div class="state-item">
+                        <span class="state-icon">💀</span>
+                        <p><b>만료된 코드</b>: 힘들게 찾은 코드가 이미 사용 기간이 지나 적용되지 않습니다.</p>
+                    </div>
+                    <div class="state-item">
+                        <span class="state-icon">💸</span>
+                        <p><b>놓친 할인</b>: 더 큰 할인 코드가 있었을지도 모른다는 찝찝함을 느낍니다.</p>
+                    </div>
+                </div>
+
+                <!-- 해결책 (After) -->
+                <div class="after-state">
+                    <h4 class="state-title green-text">마이리얼트립 쿠폰 이용 '후'의 모습</h4>
+                    <div class="state-item">
+                        <span class="state-icon">⏱️</span>
+                        <p><b>1분 만에 검색</b>: 카테고리 필터와 검색으로 원하는 할인을 즉시 찾습니다.</p>
+                    </div>
+                    <div class="state-item">
+                        <span class="state-icon">✅</span>
+                        <p><b>검증된 코드</b>: 모든 코드는 사용 가능성이 확인된 최신 정보입니다.</p>
+                    </div>
+                    <div class="state-item">
+                        <span class="state-icon">💰</span>
+                        <p><b>최대 절약</b>: 가장 효율적인 할인으로 스마트한 소비를 완료합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 마이리얼트립 쿠폰의 안전 보장 시스템 섹션 -->
+    <section class="guarantee-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>마이리얼트립 쿠폰의 안전 보장 시스템</h2>
+                <p>신뢰할 수 있는 쿠폰 정보를 제공합니다</p>
+            </div>
+            
+            <div class="guarantee-grid">
+                <!-- 보증 단계 1: 데이터 수집 -->
+                <div class="guarantee-card border-blue">
+                    <div class="guarantee-number">1</div>
+                    <h4>실시간 수집</h4>
+                    <p>마이리얼트립의 공식 채널과 파트너사 정보를 24시간 모니터링하여 새로운 할인 이벤트를 놓치지 않고 수집합니다.</p>
+                </div>
+                
+                <!-- 보증 단계 2: 유효성 검증 -->
+                <div class="guarantee-card border-orange">
+                    <div class="guarantee-number">2</div>
+                    <h4>자동 유효성 검증</h4>
+                    <p>모든 쿠폰 코드는 시스템에 등록되기 전, 최소 사용 조건 및 유효기간을 자동으로 체크하여 불필요한 코드를 걸러냅니다.</p>
+                </div>
+                
+                <!-- 보증 단계 3: 주기적 업데이트 -->
+                <div class="guarantee-card border-green">
+                    <div class="guarantee-number">3</div>
+                    <h4>매일 업데이트</h4>
+                    <p>만료된 코드는 즉시 목록에서 제거하고, 신규 및 갱신된 정보는 매일 아침 반영하여 항상 최상의 상태를 유지합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 통계 섹션 -->
+    <section class="stats-section">
+        <div class="stats-background">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&h=1080&fit=crop&crop=center" alt="통계 배경" class="stats-bg-image">
+            <div class="stats-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2>마이리얼트립 쿠폰 이용 통계</h2>
+                <p>실제 사용자들이 경험한 혜택을 확인하세요</p>
+            </div>
+            
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-value text-blue">5.8억</h3>
+                    <p class="stat-label">총 절약된 금액 (원)</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-value text-yellow">1,200+</h3>
+                    <p class="stat-label">현재 활성화된 쿠폰 수</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-value text-green">98%</h3>
+                    <p class="stat-label">사용자 만족도</p>
+                </div>
+            </div>
+
+            <!-- 카테고리별 쿠폰 점유율 그래프 -->
+            <div class="chart-section">
+                <h4 class="chart-title">카테고리별 쿠폰 점유율 (인기순)</h4>
+                
+                <div class="bar-container">
+                    <div class="bar-header">
+                        <span class="bar-label">투어/액티비티</span>
+                        <span class="bar-percentage">35%</span>
+                    </div>
+                    <div class="bar-bg">
+                        <div class="bar-fill fill-purple" style="width: 80%"></div>
+                    </div>
+                </div>
+
+                <div class="bar-container">
+                    <div class="bar-header">
+                        <span class="bar-label">숙소</span>
+                        <span class="bar-percentage">30%</span>
+                    </div>
+                    <div class="bar-bg">
+                        <div class="bar-fill fill-green" style="width: 70%"></div>
+                    </div>
+                </div>
+
+                <div class="bar-container">
+                    <div class="bar-header">
+                        <span class="bar-label">항공권</span>
+                        <span class="bar-percentage">25%</span>
+                    </div>
+                    <div class="bar-bg">
+                        <div class="bar-fill fill-red" style="width: 60%"></div>
+                    </div>
+                </div>
+
+                <div class="bar-container">
+                    <div class="bar-header">
+                        <span class="bar-label">패키지</span>
+                        <span class="bar-percentage">10%</span>
+                    </div>
+                    <div class="bar-bg">
+                        <div class="bar-fill fill-orange" style="width: 30%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 쿠폰 분석 대시보드 섹션 -->
+    <section class="dashboard-section">
+        <div class="dashboard-background">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&h=1080&fit=crop&crop=center" alt="대시보드 배경" class="dashboard-bg-image">
+            <div class="dashboard-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2>쿠폰 분석 대시보드</h2>
+                <p>다양한 쿠폰 정보를 분석하여 가장 스마트한 여행을 계획해보세요</p>
+            </div>
+            
+            <!-- 쿠폰 현황 요약 -->
+            <div class="dashboard-overview">
+                <h3>쿠폰 현황 요약</h3>
+                <div class="stats-cards">
+                    <div class="stat-card">
+                        <h4>총 쿠폰 종류</h4>
+                        <p class="stat-number" id="totalCoupons">12</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>평균 할인율</h4>
+                        <p class="stat-number" id="avgDiscount">8.5%</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>최대 할인 금액</h4>
+                        <p class="stat-number" id="maxDiscount">2만원</p>
+                    </div>
+                    <div class="stat-card">
+                        <h4>인기 쿠폰 유형</h4>
+                        <p class="stat-number" id="popularType">신규가입</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 월별 트렌드 분석 -->
+            <div class="trend-analysis">
+                <h3>월별 쿠폰 발급 트렌드</h3>
+                <p>지난 1년간 월별로 발급된 쿠폰 수량의 변화를 보여줍니다.</p>
+                <div class="trend-chart">
+                    <div class="chart-bars">
+                        <div class="chart-bar" style="height: 60%">
+                            <span class="bar-label">1월</span>
+                            <span class="bar-value">120</span>
+                        </div>
+                        <div class="chart-bar" style="height: 75%">
+                            <span class="bar-label">2월</span>
+                            <span class="bar-value">150</span>
+                        </div>
+                        <div class="chart-bar" style="height: 65%">
+                            <span class="bar-label">3월</span>
+                            <span class="bar-value">130</span>
+                        </div>
+                        <div class="chart-bar" style="height: 100%">
+                            <span class="bar-label">4월</span>
+                            <span class="bar-value">200</span>
+                        </div>
+                        <div class="chart-bar" style="height: 90%">
+                            <span class="bar-label">5월</span>
+                            <span class="bar-value">180</span>
+                        </div>
+                        <div class="chart-bar" style="height: 95%">
+                            <span class="bar-label">6월</span>
+                            <span class="bar-value">190</span>
+                        </div>
+                        <div class="chart-bar" style="height: 80%">
+                            <span class="bar-label">7월</span>
+                            <span class="bar-value">160</span>
+                        </div>
+                        <div class="chart-bar" style="height: 85%">
+                            <span class="bar-label">8월</span>
+                            <span class="bar-value">170</span>
+                        </div>
+                        <div class="chart-bar" style="height: 70%">
+                            <span class="bar-label">9월</span>
+                            <span class="bar-value">140</span>
+                        </div>
+                        <div class="chart-bar" style="height: 55%">
+                            <span class="bar-label">10월</span>
+                            <span class="bar-value">110</span>
+                        </div>
+                        <div class="chart-bar" style="height: 65%">
+                            <span class="bar-label">11월</span>
+                            <span class="bar-value">130</span>
+                        </div>
+                        <div class="chart-bar" style="height: 75%">
+                            <span class="bar-label">12월</span>
+                            <span class="bar-value">150</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 사용자 선호도 분석 -->
+            <div class="preference-analysis">
+                <h3>사용자 쿠폰 선호도</h3>
+                <p>사용자들이 어떤 카테고리의 쿠폰을 가장 많이 사용하는지 보여줍니다.</p>
+                <div class="preference-chart">
+                    <div class="preference-item">
+                        <div class="preference-bar">
+                            <div class="preference-fill" style="width: 45%"></div>
+                        </div>
+                        <div class="preference-info">
+                            <span class="preference-label">투어&티켓</span>
+                            <span class="preference-percentage">45%</span>
+                        </div>
+                    </div>
+                    <div class="preference-item">
+                        <div class="preference-bar">
+                            <div class="preference-fill" style="width: 30%"></div>
+                        </div>
+                        <div class="preference-info">
+                            <span class="preference-label">숙소</span>
+                            <span class="preference-percentage">30%</span>
+                        </div>
+                    </div>
+                    <div class="preference-item">
+                        <div class="preference-bar">
+                            <div class="preference-fill" style="width: 15%"></div>
+                        </div>
+                        <div class="preference-info">
+                            <span class="preference-label">항공권</span>
+                            <span class="preference-percentage">15%</span>
+                        </div>
+                    </div>
+                    <div class="preference-item">
+                        <div class="preference-bar">
+                            <div class="preference-fill" style="width: 10%"></div>
+                        </div>
+                        <div class="preference-info">
+                            <span class="preference-label">기타</span>
+                            <span class="preference-percentage">10%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ 섹션 -->
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>자주 묻는 질문 (FAQ)</h2>
+                <p>쿠폰 사용에 대한 궁금한 점들을 해결해드립니다</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-toggle" data-target="faq-1">
+                        <span>Q: 쿠폰 코드를 어떻게 사용하나요?</span>
+                        <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="faq-1" class="faq-content">
+                        <p>복사 버튼을 눌러 코드를 복사하신 후, 마이리얼트립 결제 페이지에서 <b>'쿠폰/할인' 입력란에 붙여넣어</b> 적용하시면 됩니다. 결제 전에 반드시 할인 금액이 적용되었는지 확인해주세요.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-toggle" data-target="faq-2">
+                        <span>Q: 쿠폰 사용 기한이 있나요?</span>
+                        <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="faq-2" class="faq-content">
+                        <p>쿠폰마다 유효기간이 다릅니다. 각 쿠폰 카드의 상세 설명에 명시된 기간을 꼭 확인해주세요. <b>만료된 쿠폰</b>은 자동으로 목록에서 제거되도록 관리하고 있습니다.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-toggle" data-target="faq-3">
+                        <span>Q: 쿠폰이 적용되지 않아요. 무엇을 확인해야 하나요?</span>
+                        <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="faq-3" class="faq-content">
+                        <p>다음 사항을 확인해 주세요:<br>
+                        1. <b>최소 결제 금액</b>을 충족했는지.<br>
+                        2. 쿠폰이 <b>특정 상품이나 지역</b>에 한정된 것은 아닌지.<br>
+                        3. <b>선착순 마감</b> 쿠폰이 아닌지.<br>
+                        문제가 지속되면 마이리얼트립 고객센터로 문의 바랍니다.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-toggle" data-target="faq-4">
+                        <span>Q: 여러 쿠폰을 동시에 사용할 수 있나요?</span>
+                        <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="faq-4" class="faq-content">
+                        <p>대부분의 쿠폰은 중복 사용이 불가능합니다. 하지만 일부 쿠폰은 다른 쿠폰과 함께 사용할 수 있으니, 각 쿠폰의 사용 조건을 자세히 확인해주세요.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-toggle" data-target="faq-5">
+                        <span>Q: 쿠폰 정보는 얼마나 자주 업데이트되나요?</span>
+                        <svg class="arrow-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </button>
+                    <div id="faq-5" class="faq-content">
+                        <p>쿠폰 정보는 매일 업데이트되며, 새로운 쿠폰이 발행되면 즉시 반영됩니다. 만료된 쿠폰은 자동으로 제거되어 항상 유효한 쿠폰만 확인하실 수 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>마이리얼트립 쿠폰</h3>
+                    <p>더 나은 여행을 위한<br>특별한 쿠폰 서비스</p>
+                </div>
+                <div class="footer-section">
+                    <h4>메뉴</h4>
+                    <ul>
+                        <li><a href="#home">홈</a></li>
+                        <li><a href="#coupons">쿠폰</a></li>
+                        <li><a href="#categories">카테고리</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>고객지원</h4>
+                    <ul>
+                        <li><a href="#faq">자주 묻는 질문</a></li>
+                        <li><a href="https://myrealtrip.com" target="_blank">마이리얼트립 홈페이지</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>연락처</h4>
+                    <p>고객센터: 1588-1234</p>
+                    <p>이메일: help@myrealtrip.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 마이리얼트립 쿠폰. All rights reserved.</p>
+                <p class="disclaimer">본 사이트는 마이리얼트립 파트너 활동으로 제작된 사이트입니다. 예약 시 해당 홈페이지 제작자에게 약간의 수익이 발생할 수 있습니다.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
